@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 41px;
+    background-color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 66px;
+    margin-right: -8px;
+}
+
+.nav1 {
+    gap: 50px !important;
+}
+
+.nav {
+    display: flex;
+    gap: 68px;
+}
+
+.nav1 a {
+    font-size: 19px;
+}
+
+.hero {
+    background-image: url('image/ff74c027a1888544144abe4be6e02cbf.jpg');
+    height: 316px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    flex-direction: column;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: -42px;
+}
+
+.hero h1 .logo-img {
+    width: 1em;
+    height: auto;
+    margin-right: 10px;
+}
+
+.breadcrumb {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #2e2f30;
+    font-weight: 600;
+}
+
+.breadcrumb a:hover {
+    text-decoration: none;
+}
+
+.content_logo img {
+    width: 130px;
+}
+
+.cart-section {
+    background-color: #fff;
+    padding: 58px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.cart-table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.table-head {
+    border: 1px solid #F9F1E7;
+    background: #F9F1E7;
+}
+
+.table-head th {
+    color: black;
+}
+
+.cart-total {
+    width: 25%;
+    margin-top: 0;
+    background-color: #F9F1E7;
+    border-radius: 4px;
+    line-height: 73px;
+    text-align: center;
+    height: 307px;
+}
+
+
+.cart-total h3 {
+    color: black;
+}
+
+.bg1 {
+    color: gray !important;
+}
+
+.bg2 {
+    color: #B88E2F;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box img {
+    border: 5px solid #f9f1e7;
+    background: #f9f1e7;
+    height: 103px;
+    width: 146px;
+    position: relative;
+    right: 16px;
+    border-radius: 12px;
+}
+
+
+
+tbody {
+    color: gray;
+}
+
+.cart-total h3 {
+    margin-bottom: 10px;
+    font-size: 33px;
+    text-align: center;
+}
+
+.text-height {
+    line-height: 55px;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.cart-total p {
+    margin-top: -10px;
+}
+
+.checkout-btn {
+    display: inline-block;
+    color: #050505;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 187px;
+    text-align: center;
+    position: relative;
+    line-height: 55px;
+}
+
+td i {
+    color: #B88E2F;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f3eb;
+    height: 138px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature i {
+    font-size: 34px;
+    color: #000;
+}
+
+.feature h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+.quantity-input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.delete-btn {
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        >
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="image/a74736d502746301ed573ed8940fc322.png" alt="">
+                    Marmeto
+                </div>
+                <div class="nav">
+                    <a href="#">Home</a>
+                    <a href="#">Shop</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="nav nav1">
+                    <a href="#">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero">
+                <div class="content_logo">
+                    <img class="logo-img" src="image/a74736d502746301ed573ed8940fc322.png" alt="">
+                </div>
+                <h1>
+                    Cart
+                </h1>
+                <p class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    &gt; Cart
+                </p>
+            </div>
+            <div class="cart-section">
+                <table class="cart-table">
+                    <tr class="table-head">
+                        <th></th>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                    <tr class="cart-item" data-price="250000">
+                        <td class="box">
+                            <img src="image/917ac944454e358f73d0af67e1f1b74e.png" alt="Product Image" width="100">
+                        </td>
+                        <td>Asgaard Sofa</td>
+                        <td class="price">Rs. 250,000.00</td>
+                        <td>
+                            <input
+                                type="number"
+                                class="quantity-input"
+                                value="1"
+                                min="1"
+                            >
+                        </td>
+                        <td class="subtotal">Rs. 250,000.00</td>
+                        <td>
+                            <button class="delete-btn">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+                <div class="cart-total">
+                    <h3>Cart Totals</h3>
+                    <p>
+                        <span class="text-bold">Subtotal:</span>
+                        &nbsp;&nbsp;
+                        <span class="bg1" id="cart-subtotal">Rs. 250,000.00</span>
+                    </p>
+                    <p>
+                        <span class="text-bold">Total:</span>
+                        &nbsp;&nbsp;
+                        <strong class="bg2" id="cart-total">Rs. 250,000.00</strong>
+                    </p>
+                    <a href="#" class="checkout-btn">Check Out</a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="feature">
+                    <i class="fa-solid fa-trophy"></i>
+                    <div>
+                        <h3>High Quality</h3>
+                        <p>crafted from top materials</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <i class="fa-regular fa-circle-check"></i>
+                    <div>
+                        <h3>Warranty Protection</h3>
+                        <p>Over 2 years</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-hands-holding"></i>
+                    <div>
+                        <h3>Free Shipping</h3>
+                        <p>Order over 150 $</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <i class="fa-solid fa-headset"></i>
+                    <div>
+                        <h3>24 / 7 Support</h3>
+                        <p>Dedicated support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
